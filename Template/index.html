@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+    <script src="./js/fontawesome-all.js">
+
+    </script>
+    <title>OOOL</title>
+  </head>
+  <body>
+    <!-- navber -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-bg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">OOOL</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="fa fa-align-justify fa-lg text-light"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link d-none d-sm-block" href="profile.html">Profile</a>
+              </li>
+              <li class="nav-item d-block d-sm-none">
+                <a class="nav-link" href="#">Setting</a>
+              </li>
+              <li class="nav-item dropdown d-block d-sm-none">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Sort By <i class="fa fa-chevron-circle-down fa-sm"></i>
+                </a>
+                <div class="dropdown-menu navmenu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item navitem" href="#">Post</a>
+                  <a class="dropdown-item navitem" href="#">Comment</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline col-md-7 my-2 my-lg-0 mr-auto cont d-none d-sm-block">
+              <input class="form-control col-md-12 search d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <button class="btn btn-setting d-none d-sm-block d-none d-sm-block"><i class="fa fa-cog fa-lg"></i></button>
+            <div class="nav-item dropdown my-0 d-none d-sm-block">
+              <buttton class="btn btn-setting nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-chevron-circle-down fa-lg d-none d-sm-block"></i>
+              </button>
+              <div class="dropdown-menu navmenu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item navitem" href="#">Story</a>
+                <a class="dropdown-item navitem" href="#">Comment</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <form class="form-inline col-md-7 mr-auto col-xs-12 contr d-block d-sm-none mt-3">
+      <input class="form-control col-md-12 col-xs-12 search" type="search" placeholder="Search" aria-label="Search">
+    </form>
+    <!-- End of navber -->
+
+    <!-- content section -->
+    <section class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 col-sm-12">
+            <div class="row d-none d-sm-block">
+              <div class="card w-100 tell-story">
+                <div class="card-body">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Tell Your Story" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" onclick="document.getElementById('input').click();"><i class="fa fa-images"></i>
+                        <input id="input" type="file">
+                      </button>
+                      <button class="btn btn-outline-secondary" type="button"><i class="fa fa-paper-plane"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card w-100">
+                <div class="card-body">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="https://placehold.it/60x60" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0">Person</h5>
+                      <p class="text-justify">Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                      <img class="mr-3 w-100" src="https://placehold.it/200x200" alt="Generic placeholder image">
+                      <div class="input-group mt-2">
+                        <input type="text" class="form-control" placeholder="Leave Comment" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <div class="nav-item dropdown my-0">
+                            <buttton class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="fa fa-paper-plane"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Comment</a>
+                              <a class="dropdown-item" href="#">Comment anonymous</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="media mt-3">
+                        <img class="mr-3 rounded-circle" src="https://placehold.it/50x50" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0">Person</h5>
+                          <p class="d-inline">Cras sit amet nibh libero,</p>
+                          <button class="btn btn-outline-secondary float-right"><i class="fa fa-comments"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-100">
+                <div class="card-body">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="https://placehold.it/60x60" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0">Person</h5>
+                      <p class="text-justify">Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                      <img class="mr-3 w-100" src="https://placehold.it/800x800" alt="Generic placeholder image">
+                      <div class="media mt-3">
+                        <img class="mr-3 rounded-circle" src="https://placehold.it/50x50" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0">Person</h5>
+                          <p class="d-inline">Cras sit amet nibh libero,</p>
+                          <button class="btn btn-outline-secondary float-right"><i class="fa fa-comments"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 aside col-xs-12 d-none d-sm-block">
+            <div id="chat" class="card-header text-center">
+              Your Latest Chat
+            </div>
+            <div class=" chat-list">
+              <ul class="list-group list-group-flush scrollspy-example">
+                <li class="list-group-item">
+                  <div class="media">
+                    <img class="mr-3 align-self-center" src="https://placehold.it/30x30" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0">Person</h5>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="media">
+                    <img class="mr-3 align-self-center" src="https://placehold.it/30x30" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0">Person</h5>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer chat-footer col-md-3">
+              <input type="text" class="col-md-12 search">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of content section -->
+
+    <!-- Start Of Footer -->
+      <footer class="container d-block d-sm-none fixed-bottom bg-light">
+        <div class="row justify-content-md-center">
+          <div class="col-4 text-center"><button class="btn btn-outline-secondary" data-toggle="modal" data-target="#TellStory"><i class="fa fa-pencil-alt"></i></button></div>
+          <div class="col-4 text-center"><button class="btn btn-outline-secondary"><i class="fa fa-user-circle"></i></button></div>
+          <div class="col-4 text-center"><button class="btn btn-outline-secondary" data-toggle="modal" data-target="#Chat"><i class="fa fa-comments"></i></button></div>
+        </div>
+      </footer>
+    <!-- End Of Footer -->
+
+
+    <!-- Modals -->
+      <!-- Tell Story Modal -->
+      <div class="modal fade" id="TellStory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tell Your Story</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <textarea type="text" class="form-control" placeholder="Tell Your Story" aria-label="Recipient's username" aria-describedby="basic-addon2"></textarea>
+            </div>
+            <div class="modal-footer">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" onclick="document.getElementById('input').click();"><i class="fa fa-images"></i>
+                  <input id="input" type="file">
+                </button>
+                <button class="btn btn-outline-secondary" type="button"><i class="fa fa-paper-plane"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Of Tell Story Modal -->
+
+      <!-- Chat Modal -->
+      <div class="modal fade" id="Chat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="chat-modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Your Latest Chat</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class=" modal-chat-list">
+                <ul class="list-group list-group-flush scrollspy-example">
+                  <li class="list-group-item">
+                    <div class="media">
+                      <img class="mr-3 align-self-center" src="https://placehold.it/30x30" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <h5 class="mt-0">Person</h5>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="media">
+                      <img class="mr-3 align-self-center" src="https://placehold.it/30x30" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <h5 class="mt-0">Person</h5>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <input type="text" class="search w-100" placeholder="Search">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Chat Modal -->
+    <!-- End Of Modals -->
+
+    <!-- Optional JavaScript -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/events.js"></script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+body {
+  background-color: #f5f8fa;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: .8rem;
+  line-height: 1.6;
+  font-weight:lighter;
+}
+
+h5 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbar {
+  /* padding: 0px; */
+  z-index: 1000;
+  box-shadow: 0px 5px 5px rgba(211,211,211,.5);
+}
+
+
+.navbar-bg {
+  background-color: #1cb0f6;
+  font-weight: 400;
+}
+
+.navbar-bg a {
+  color: white;
+}
+
+.search {
+  background-color: #14d4f4;
+  border: 1px solid #86d3ff;
+  border-radius:0;
+  color: white;
+  height: 30px;
+  margin-top: 0px;
+  width: 100% !important;
+}
+
+.search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.search::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.search:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.search:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+.search:focus {
+  background-color: #86d3ff;
+  border: 1px solid #86d3ff;
+  border-radius:0;
+  color: white;
+  margin-top: 0px;
+}
+#input {
+  display: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.btn-setting {
+  background-color: rgba(0,0,0,0);
+  color: white;
+}
+
+.navmenu {
+  background-color: #1cb0f6;
+  border: none;
+  padding: 0;
+}
+
+.navitem:hover {
+    background-color: #14d4f4
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.tell-story{
+  border-bottom: 0;
+
+}
+
+.aside {
+  position: fixed;
+  right: 0;
+  height: 100%
+  bottom: 0px;
+  z-index: 2;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.cont {
+  padding-left: 5px;
+  padding-right: 30px;
+}
+.contr {
+  top: 25px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,.125);
+  height: 60px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+
+.aside:last-child {
+  bottom: 0px;
+}
+.chat-card {
+  height: 90%;
+}
+
+.card-header {
+  cursor: pointer;
+}
+
+.chat-list {
+overflow-y: scroll;
+height:87vh;
+background-color: white;
+}
+
+
+.chat-footer {
+  padding: .5rem;
+  background-color: #1cb0f6;
+  position: fixed;
+  bottom: 0px;
+  /* width: 25%; */
+}
+
+.card-header {
+  background-color: #1cb0f6;
+  color: white;
+  font-weight: bold;
+}
+
+
+footer {
+  height: 8%;
+  border-top: 1px solid rgba(0,0,0,.125);
+  padding-top: 5px;
+}
+
+.modal {
+  padding-left: 0px !important;
+}
+
+.modal-header {
+  height: 40px;
+  padding: .5rem;
+  background-color: #1cb0f6;
+  color: white;
+}
+
+.chat-modal-content{
+  height:100vh;
+}
+.chat-modal-dialog{
+  margin: 0;
+}
+
+.modal-chat-list {
+  overflow-y: scroll;
+  height: 83vh;
+  background-color: white;
+}
+
+.modal-footer {
+  height: 50px;
+  padding: .5rem;
+  color: white;
+}
